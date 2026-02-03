@@ -1,6 +1,6 @@
- Industry-Oriented Quantum and AI Full-Stack Product Development Program
+Industry-Oriented Quantum and AI Full-Stack Product Development Program
 
- INSTITUTION
+INSTITUTION
 Olewin Academy
 
 PROGRAM DURATION
@@ -9,11 +9,20 @@ PROGRAM DURATION
 PROGRAM TYPE
 Industry Simulation | Product-Based Learning | Research-Integrated Development
 
+Project Type
+Full-Stack Product Development with AI Orchestration and Quantum Computing Integration
+
 PROGRAM OVERVIEW
 
 This program is designed to simulate a real-world technology company environment in which students work as cross-functional product teams. Over a period of six months, students will design, develop, deploy, and present a production-grade software system that integrates mobile applications, web applications, artificial intelligence orchestration, and quantum computing algorithms.
 
-Each team will work on a real-world problem statement and deliver a complete, scalable, cloud-deployed system consisting of:
+PROJECT MANDATE
+
+You are assigned to design, develop, deploy, and document a production-grade software product that integrates mobile applications, a web application, artificial intelligence orchestration, and quantum computing algorithms.
+
+This assignment must be treated as an industry-level product development project. The final system must be functional, deployable on the cloud, and supported with full technical documentation.
+
+The system must consist of:
 
 Android mobile application
 
@@ -23,330 +32,338 @@ Web and desktop application
 
 Backend server and database
 
-AI orchestration engine
+AI orchestration service
 
 Quantum algorithm module
 
 DevOps and cloud deployment pipeline
 
-The program combines software engineering, product design, research methodology, and emerging technologies such as quantum computing and AI-driven automation.
+PROJECT DOMAIN SELECTION
 
-PROGRAM OBJECTIVES
+One of the following domains must be selected and approved before development begins. All platforms and components must be built for the selected domain.
 
-By the end of the program, students will be able to:
+Domain Option 1: Quantum Traffic Optimization
+A system that optimizes traffic flow using AI predictions and quantum optimization algorithms.
 
-Design professional user interfaces and user experiences for mobile and web platforms.
+Domain Option 2: Quantum-Assisted Drug Discovery
+A platform that combines AI models and quantum simulations to analyze molecular structures.
 
-Develop full-stack applications using modern frontend and backend technologies.
+Domain Option 3: Smart Energy Grid Optimization
+A system that balances renewable energy supply and demand using AI forecasting and quantum optimization.
 
-Build and integrate AI orchestration systems for intelligent decision-making.
+Domain Option 4: Financial Risk and Portfolio Optimization
+A platform using AI forecasting and quantum probability modeling for financial risk analysis.
 
-Design and simulate quantum computing algorithms for real-world optimization or prediction problems.
+Domain Option 5: Climate Modeling and Disaster Prediction
+A system that integrates AI climate analysis with quantum simulations for extreme weather prediction.
 
-Implement DevOps practices including CI/CD, containerization, and cloud deployment.
+REQUIRED SYSTEM COMPONENTS
 
-Work in structured engineering teams with defined roles and responsibilities.
+3.1 Mobile Applications
+Two native-style mobile applications must be developed:
 
-Produce professional technical documentation and research-style reports.
+Android version following Material Design principles
 
-INDUSTRY PROJECT TRACKS
+iOS version following Apple Human Interface Guidelines
 
-Each team will select one of the following industry-grade project domains. All platforms (Android, iOS, Web) must be developed for the chosen project.
+Both applications must support authentication, dashboards, data visualization, and result display from AI and quantum modules.
 
-Project 1: Quantum Traffic Optimization System
-A system that uses AI and quantum optimization algorithms to improve traffic signal timing and route efficiency in urban areas.
+3.2 Web and Desktop Application
+A responsive web application must be developed for desktop and laptop usage. It must provide full system functionality, administrative access, and advanced analytics dashboards.
 
-Project 2: Quantum Drug Discovery Support Platform
-A hybrid AI and quantum simulation system to model molecular interactions and assist in identifying promising drug compounds.
-
-Project 3: Smart Energy Grid Optimization Platform
-A system that uses AI forecasting and quantum optimization to manage renewable energy distribution and load balancing.
-
-Project 4: Financial Risk Prediction and Portfolio Optimization
-A platform combining AI forecasting models and quantum probabilistic algorithms for risk analysis and investment optimization.
-
-Project 5: Climate Modeling and Disaster Prediction System
-A system that integrates AI climate models with quantum simulations to predict extreme weather events and environmental risks.
-
-TEAM STRUCTURE AND ROLE ROTATION
-
-Students will work in teams that simulate a real technology company structure. Roles will rotate every six weeks so that each student gains multidisciplinary experience.
-
-Core Roles
-
-Product Manager
-Responsible for feature planning, sprint coordination, documentation, and stakeholder communication.
-
-UI/UX Designer
-Responsible for user research, wireframing, high-fidelity design, design systems, and interactive prototypes.
-
-Frontend Developer
-Responsible for implementing user interfaces for mobile and web applications.
-
-Backend Developer
-Responsible for server-side logic, APIs, authentication, and database integration.
-
-AI Engineer
-Responsible for building machine learning pipelines, prediction models, and AI orchestration logic.
-
-Quantum Engineer
-Responsible for designing, simulating, and evaluating quantum algorithms.
-
-DevOps Engineer
-Responsible for containerization, CI/CD pipelines, cloud deployment, and monitoring.
-
-TECHNOLOGY STACK
-
-Frontend Technologies
-React.js or Next.js for web applications
-Flutter or React Native for mobile applications
-Tailwind CSS or Bootstrap for UI styling
-Framer Motion or equivalent for animations
-
-Backend Technologies
-Node.js with Express.js
-REST or GraphQL APIs
-
-Databases
-MongoDB or PostgreSQL
-Redis for caching and performance optimization
-
-AI and Data
-Python-based AI services
-TensorFlow, PyTorch, or Scikit-learn
-Data preprocessing and model evaluation pipelines
-
-Quantum Computing
-Qiskit, Cirq, or PennyLane
-Quantum circuit simulation
-Hybrid classical-quantum workflows
-
-DevOps and Cloud
-Docker for containerization
-GitHub Actions or GitLab CI for continuous integration
-AWS, Google Cloud, or Azure for deployment
-Monitoring tools such as Prometheus or Grafana
-
-PROJECT DEVELOPMENT LIFE CYCLE
-
-The project follows a structured six-phase life cycle over 24 weeks.
-
-PHASE 1: PRODUCT DISCOVERY AND UI/UX DESIGN (Weeks 1–4)
-
-Students begin by understanding the problem domain, identifying target users, and defining system requirements.
-
-Activities
-
-Problem statement finalization
-
-Market and competitor analysis
-
-User persona creation
-
-Feature definition and prioritization
-
-User journey mapping
-
-Low-fidelity wireframes for Android, iOS, and Web
-
-High-fidelity UI designs in Figma
-
-Creation of a design system (colors, typography, spacing, components)
-
-Interactive prototype creation
-
-Design review and approval
-
-Deliverables
-
-Problem definition document
-
-Feature requirement specification
-
-Complete Figma design files
-
-UX case study document
-
-PHASE 2: FRONTEND DEVELOPMENT (Weeks 5–8)
-
-Students convert approved designs into working interfaces for all three platforms.
-
-Activities
-
-Repository and project structure setup
-
-Implementation of navigation systems
-
-Authentication screens and flows
-
-Dashboard and core feature screens
-
-Data visualization components
-
-Responsive layouts for mobile and desktop
-
-Platform-specific UI refinements
-
-Deliverables
-
-Functional frontend for Android, iOS, and Web
-
-UI component library
-
-Frontend documentation
-
-PHASE 3: BACKEND AND DATABASE DEVELOPMENT (Weeks 9–12)
-
-Students build the server-side infrastructure and connect it with the frontend.
-
-Activities
-
-Backend project setup
-
-Database schema design
+3.3 Backend System
+A backend server must be developed to handle:
 
 User authentication and authorization
 
-API development for core features
+API endpoints for all system features
 
-Error handling and logging
+Communication with AI and quantum modules
 
-API documentation using Swagger or similar tools
+Database operations
 
-Integration of frontend with backend APIs
+Logging and error handling
+
+Recommended technologies include Node.js with Express.js and REST or GraphQL APIs.
+
+3.4 Database Layer
+A structured database must be designed and implemented. Acceptable options include PostgreSQL or MongoDB. Redis may be used for caching and performance improvements.
+
+3.5 AI Orchestration Service
+An AI service must be developed to:
+
+Process system input data
+
+Run predictive or analytical models
+
+Determine when classical processing is sufficient
+
+Determine when to invoke the quantum module
+
+Return optimized outputs to the backend
+
+The AI service may be developed using Python with suitable machine learning libraries.
+
+3.6 Quantum Algorithm Module
+A quantum computing component must be designed and implemented. This module must:
+
+Address a computational challenge within the selected project domain
+
+Be implemented using a framework such as Qiskit, Cirq, or PennyLane
+
+Include quantum circuit design and simulation
+
+Be integrated with the AI orchestration service
+
+Provide performance comparison with a classical approach
+
+TECHNOLOGY REQUIREMENTS
+
+Frontend
+React.js or Next.js for web
+Flutter or React Native for mobile
+Tailwind CSS or Bootstrap for UI styling
+
+Backend
+Node.js with Express.js
+
+Database
+PostgreSQL or MongoDB
+
+AI Layer
+Python-based service with machine learning libraries
+
+Quantum Layer
+Qiskit, Cirq, or PennyLane
+
+DevOps
+Docker for containerization
+CI/CD using GitHub Actions or equivalent
+Deployment on AWS, Google Cloud, or Azure
+
+DEVELOPMENT PHASES AND TIMELINE
+
+PHASE 1: PRODUCT DEFINITION AND UI/UX DESIGN (Weeks 1–4)
+
+Define system features and user flows. Produce complete UI/UX designs in Figma for Android, iOS, and Web. Establish a design system and interactive prototype.
 
 Deliverables
+Approved feature list
+User flow diagrams
+High-fidelity designs
+Clickable prototype
 
-Deployed backend API (test environment)
+PHASE 2: FRONTEND IMPLEMENTATION (Weeks 5–8)
 
-Database with sample data
+Set up project repositories and implement the user interface for all platforms. Develop authentication flows, dashboards, and core feature screens.
 
+Deliverables
+Functional frontend for Android, iOS, and Web
+Reusable UI components
+
+PHASE 3: BACKEND AND DATABASE DEVELOPMENT (Weeks 9–12)
+
+Develop server infrastructure, database schemas, authentication systems, and APIs. Integrate frontend applications with backend services.
+
+Deliverables
+Working backend APIs
+Database with structured schema
 API documentation
 
-PHASE 4: AI ORCHESTRATION AND QUANTUM ALGORITHM DEVELOPMENT (Weeks 13–16)
+PHASE 4: AI ORCHESTRATION AND QUANTUM DEVELOPMENT (Weeks 13–16)
 
-This phase introduces intelligence and research components into the system.
-
-AI Orchestration Activities
-
-Data collection and preprocessing pipeline
-
-Selection and training of AI models
-
-Creation of an AI service that decides when to use classical or quantum processing
-
-Integration of AI service with backend APIs
-
-Quantum Algorithm Activities
-
-Mapping real-world problem to quantum optimization or simulation problem
-
-Designing quantum circuits
-
-Running simulations using quantum frameworks
-
-Comparing classical vs quantum results
+Develop the AI orchestration service and integrate machine learning models. Design and simulate the quantum algorithm. Connect the AI system with the quantum module and backend.
 
 Deliverables
-
 AI orchestration service
-
-Quantum algorithm code and circuit diagrams
-
-Performance comparison report
-
-Research-style technical documentation
+Quantum algorithm implementation
+Integration between AI and quantum systems
+Technical documentation of algorithms
 
 PHASE 5: DEVOPS AND CLOUD DEPLOYMENT (Weeks 17–20)
 
-Students prepare the system for production-level deployment.
-
-Activities
-
-Containerization of backend, AI, and quantum services using Docker
-
-Setting up CI/CD pipelines
-
-Cloud infrastructure configuration
-
-Deployment of frontend, backend, AI, and database services
-
-Setting up monitoring and logging
+Containerize all services, set up CI/CD pipelines, and deploy the system on a cloud platform. Configure monitoring and logging.
 
 Deliverables
-
-Live cloud deployment
-
+Cloud-deployed backend, frontend, AI, and database
 CI/CD pipeline configuration
-
 Deployment documentation
 
-PHASE 6: TESTING, OPTIMIZATION, AND FINAL RELEASE (Weeks 21–24)
+PHASE 6: TESTING AND FINAL RELEASE (Weeks 21–24)
 
-The final phase focuses on quality, performance, and presentation.
-
-Activities
-
-Unit testing for frontend and backend
-
-API testing
-
-Load and performance testing
-
-Security testing and basic hardening
-
-Bug fixing and performance optimization
-
-Preparation of final documentation and demo
+Conduct system-wide testing, including unit tests, API tests, performance tests, and basic security validation. Fix issues and optimize performance. Prepare final documentation and demonstration.
 
 Deliverables
-
-Production-ready system
-
 Test reports
-
+Optimized production system
 Final technical documentation
+Demonstration of working system
 
-Demo video
+DOCUMENTATION REQUIREMENTS
 
-Final presentation
+The following documentation must be maintained in the repository:
 
-FINAL DELIVERABLES
+System architecture description
 
-Each team must submit:
+API documentation
+
+Database schema documentation
+
+AI model documentation
+
+Quantum algorithm documentation with circuit diagrams
+
+Deployment guide
+
+Testing reports
+
+FINAL SUBMISSION REQUIREMENTS
+
+At the end of the project, the following must be submitted:
 
 Android application build
 
 iOS application build
 
-Live web application
+Live web application URL
 
-Backend API deployed on cloud
+Deployed backend API
 
 AI orchestration service
 
-Quantum algorithm implementation and documentation
+Quantum algorithm code and documentation
 
-Complete GitHub repository
+Complete source code repository
 
 Technical documentation
 
-Research-style report on quantum contribution
+Final system demonstration
 
-Final demonstration presentation
 
-LEARNING OUTCOMES
 
-Upon completion, students will have practical experience in:
 
-Cross-platform product design
 
-Full-stack software engineering
+PERFORMANCE POLICY, TERMS AND CONDITIONS, AND PROGRAM DISCLAIMER
+Applicable to the Six-Month Quantum and AI Product Development Assignment
 
-AI system integration
+Issued By
+Olewin Academy – Project Supervision and Research Development Division
 
-Quantum algorithm development
+NATURE OF THE ASSIGNMENT
 
-DevOps and cloud deployment
+This project is structured to simulate a full-time, industry-grade product development and research environment. Participants are expected to work with the level of responsibility, discipline, and accountability required in a professional technology organization.
 
-Agile teamwork in a simulated company environment
+The assignment involves continuous technical evaluation, structured deliverables, and performance tracking from the first day of the program until final submission.
+
+Participation in this program does not constitute employment. It is an academic and professional development assignment designed to replicate real-world product engineering and research workflows.
+
+PERFORMANCE MONITORING
+
+Performance will be continuously monitored from the start of the program based on the following criteria:
+
+Technical competency and skill progression
+
+Quality and completeness of assigned tasks
+
+Timely submission of deliverables
+
+Problem-solving ability
+
+Team collaboration and communication
+
+Adherence to coding standards and documentation practices
+
+Participation in reviews, meetings, and project discussions
+
+All assigned tasks, milestones, and sprint deliverables are mandatory and will be evaluated against professional industry standards.
+
+PERFORMANCE DEFICIENCY AND CORRECTIVE ACTION
+
+If a participant’s performance is found to be consistently below the expected standard, the following actions may be taken:
+
+Performance Warning
+A formal notification will be issued identifying areas of deficiency and required improvement.
+
+Performance Review Period
+A defined improvement period may be provided during which the participant must demonstrate measurable progress in technical output, consistency, and responsibility.
+
+Course Extension
+If performance remains below the required level, the participant may be assigned an extended training period beyond the original program duration. This extension is intended to allow additional time for skill development and project completion.
+
+Project Reassignment or Cancellation
+If, after review and extension, the participant is still unable to meet the minimum project standards, the current project assignment may be withdrawn. A different project may be assigned based on the participant’s demonstrated skill level, or the participant may be removed from the advanced project track.
+
+All such decisions will be based on documented performance evaluations and mentor reviews.
+
+PROJECT CONTINUITY AND REMOVAL
+
+Olewin Academy reserves the right to:
+
+Modify project scope based on team capability
+
+Reassign participants to different modules or roles
+
+Remove a participant from a project if performance, discipline, or participation is consistently unsatisfactory
+
+Project removal does not entitle the participant to certification of completion for the original assigned project.
+
+ATTENDANCE AND PARTICIPATION REQUIREMENTS
+
+Active and consistent participation is mandatory. This includes:
+
+Regular attendance in scheduled sessions
+
+Participation in sprint meetings and reviews
+
+Timely updates to project repositories
+
+Active contribution to assigned tasks
+
+Extended absence, lack of participation, or repeated missed deadlines may lead to performance review and possible project reassignment.
+
+QUALITY STANDARDS
+
+All work submitted must meet professional software engineering and research standards. Submissions that are incomplete, copied without attribution, non-functional, or significantly below technical expectations will not be accepted.
+
+Repeated submission of substandard work may result in performance action as described above.
+
+INTELLECTUAL PROPERTY AND USAGE
+
+All project work developed as part of this program is considered part of an institutional research and development initiative. Participants may include the work in personal portfolios with proper acknowledgment, but institutional guidelines regarding publication, sharing, or commercialization must be followed.
+
+NO EMPLOYMENT GUARANTEE
+
+Participation in this program does not guarantee job placement, internships, or employment offers.
+
+While the institution may provide career guidance, referrals, or job assistance based on performance and availability of opportunities, there is no obligation or assurance of employment outcomes.
+
+Employment opportunities depend on individual performance, skill level, professional conduct, and external industry requirements.
+
+SKILL-BASED EVALUATION
+
+All evaluations, project continuation decisions, recommendations, and certifications are strictly based on demonstrated technical skills, contribution quality, and professional conduct throughout the program.
+
+No participant will be advanced, certified for project completion, or recommended for opportunities without meeting the defined performance standards.
+
+ACCEPTANCE OF TERMS
+
+By continuing participation in the assigned project, the participant acknowledges and agrees to:
+
+Continuous performance monitoring
+
+Compliance with project standards and timelines
+
+Acceptance of performance-based evaluation outcomes
+
+Possible extension, reassignment, or removal based on performance
+
+Understanding that employment is not guaranteed
+
+These terms are part of the official academic and project governance policy for this program.
+
+
+
+Regards 
+Olewin Academy
+
+
